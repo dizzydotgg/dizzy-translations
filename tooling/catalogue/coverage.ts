@@ -163,7 +163,7 @@ export function coverage(input: CoverageInput): CoverageReport {
   const surfaces = NAMESPACES.filter((ns) =>
     keys.some((key) => surfaceOf(key) === ns)
   );
-  const isName = (key: string) => input.index[key]?.accessibleName === true;
+  const isName = (key: string) => input.index[key]?.accessibleName ?? false;
 
   const denominator: CoverageReport["denominator"] = {
     surfaces: surfaces.map((surface) => {

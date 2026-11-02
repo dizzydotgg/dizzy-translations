@@ -36,6 +36,7 @@
   "dashboard.nav.site.challongeDirectory": "Site dashboard panel. Challonge is a product name.",
   "dashboard.nav.site.claims": "Site dashboard panel: requests to claim a player profile.",
   "dashboard.nav.site.communities": "Site dashboard panel.",
+  "dashboard.nav.site.complaints": "Site console panel listing complaints and appeals to decide.",
   "dashboard.nav.site.events": "Site dashboard panel.",
   "dashboard.nav.site.features": "Site dashboard panel: the site's on/off switches.",
   "dashboard.nav.site.games": "Site dashboard panel.",

@@ -49,7 +49,7 @@ export function parseMessage(message: string): IcuNode[] {
   return parse(message, {
     ignoreTag: false,
     requiresOtherClause: true,
-  }) as IcuNode[];
+  });
 }
 
 /**

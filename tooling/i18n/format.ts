@@ -95,8 +95,7 @@ const dateTimeFormat = memoise(
 let viewerZone: string | undefined;
 
 const formatters: Formatters = {
-  getNumberFormat: (locales, opts) =>
-    numberFormat(locales, opts as Intl.NumberFormatOptions | undefined),
+  getNumberFormat: (locales, opts) => numberFormat(locales, opts),
   getPluralRules: (locales, opts) => pluralRules(locales, opts),
   getDateTimeFormat: (locales, opts) =>
     dateTimeFormat(
@@ -184,7 +183,7 @@ export function t(
   values?: MessageValues,
   opts?: FormatOptions
 ): string {
-  const result = formatMessage<never>(source, locale, values, opts);
+  const result = formatMessage(source, locale, values, opts);
   return typeof result === "string" ? result : result.join("");
 }
 

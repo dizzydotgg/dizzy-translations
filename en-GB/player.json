@@ -204,6 +204,8 @@
   "player.masthead.alsoIn": "Also in",
   "player.masthead.tournaments": "{n, plural, one {tournament} other {tournaments}}",
   "player.masthead.unranked": "Unranked in {community}",
+  "player.nameHeld.body": "A privacy request about them is open. Until it's decided, everyone else sees “{name}” and can't open this page.",
+  "player.nameHeld.title": "This player is hidden",
   "player.rail.title": "This profile",
   "player.rating.label": "Rating",
   "player.rating.tooltip.ranked": "Ranked #{rank} of {n}",

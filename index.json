@@ -53,6 +53,12 @@
         "element": ""
       },
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/mobile/components/report-form.tsx",
         "grain": "str",
         "attr": "",
@@ -132,12 +138,6 @@
       },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-setup-panel.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -441,6 +441,12 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-settings-sections.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -897,6 +903,12 @@
       },
       {
         "file": "apps/web/components/blob-image-field.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/events/organiser-table.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -1510,6 +1522,83 @@
       }
     ]
   },
+  "common.apiKeys.rules.agree": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.apiKeys.rules.agreeButton": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.apiKeys.rules.description": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.apiKeys.rules.read": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.apiKeys.rules.stopped": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.apiKeys.rules.submit": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.apiKeys.rules.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "common.apiKeys.shownOnce": {
     "accessibleName": false,
     "sites": [
@@ -1538,6 +1627,28 @@
       }
     ]
   },
+  "common.apiKeys.unanswered": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.apiKeys.under18": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/api-keys/api-keys-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "common.apiKeys.unnamed": {
     "accessibleName": false,
     "sites": [
@@ -1555,35 +1666,7 @@
       }
     ]
   },
-  "common.avatar.animatedHint": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/avatar-uploader.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "common.avatar.animatedLabel": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/avatar-uploader.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/components/avatar-uploader.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "common.avatar.animatedPerk": {
+  "common.avatar.discordShown": {
     "accessibleName": false,
     "sites": [
       {
@@ -1613,6 +1696,23 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/components/avatar-uploader.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.avatar.perk": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/avatar-uploader.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -1626,7 +1726,19 @@
         "element": ""
       },
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-visualizer.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-detail-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-dialog.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -1651,6 +1763,18 @@
       },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-reads.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-reads.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-start.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -1922,6 +2046,635 @@
       },
       {
         "file": "apps/web/app/[lang]/closed/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.about": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.about.placeholder": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.appeal.intro": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.appeal.notFound": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.appeal.reference": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.appeal.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.choose": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.accountClosed": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.accountSuspended": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.accountWarned": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.announcementRemoved": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.capabilitiesChanged": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.claimRevoked": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.communityRoleRemoved": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.complaintNotUpheld": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.eventDeleted": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.eventRoleRemoved": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.imageTakenDown": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.other": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.playerBanned": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.playerDetailsChanged": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.replayTakenDown": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.reportActioned": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.reportDismissed": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.resultCorrected": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.tournamentDeleted": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.under18FlagCleared": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.decision.under18Flagged": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.detail": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.detail.appeal": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.email.signedIn": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.email.signedOut": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.failed": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.howHandled": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.icoNote": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.intimateNote": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.intro": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/complaints/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.kind": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.kind.accountAction": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.kind.ageMark": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.kind.contentRemoved": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.kind.dataProtection": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.kind.duties": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.kind.intimateImage": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.kind.slurCheck": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.reference": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.reportHow": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaints-page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.reportInstead": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaints-page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.sent.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.sent.bodyIntimate": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.sent.reference": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.sent.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.submit": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.submit.appeal": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.complaint.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/complaints/appeal/[reference]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/complaints/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/complaints/page.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -3440,6 +4193,17 @@
       }
     ]
   },
+  "common.footer.complaints": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/footer.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "common.footer.cookiePreferences": {
     "accessibleName": false,
     "sites": [
@@ -3771,6 +4535,39 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/page.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.home.door.playgroundAction": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/home-door-prompt.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.home.door.playgroundLabel": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/home-door-prompt.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.home.door.playgroundLine": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/home-door-prompt.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -4505,12 +5302,6 @@
   "common.image.sizeMb": {
     "accessibleName": false,
     "sites": [
-      {
-        "file": "apps/web/components/avatar-uploader.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
       {
         "file": "apps/web/components/avatar-uploader.tsx",
         "grain": "str",
@@ -5458,6 +6249,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -5644,6 +6441,50 @@
     ]
   },
   "common.og.player.unranked": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/lib/og-metadata.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.og.playground.description": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/lib/og-metadata.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.og.playground.setupDescription": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/lib/og-metadata.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.og.playground.setupTitle": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/lib/og-metadata.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.og.playground.title": {
     "accessibleName": false,
     "sites": [
       {
@@ -6061,6 +6902,62 @@
       }
     ]
   },
+  "common.policyChange.label": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/policy-change-notice.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.policyChange.privacy": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/components/policy-change-notice.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/policy-change-notice.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.policyChange.putAway": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/policy-change-notice.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.policyChange.terms": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/components/policy-change-notice.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/policy-change-notice.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "common.premiumPerk.note": {
     "accessibleName": false,
     "sites": [
@@ -6437,6 +7334,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6460,6 +7363,18 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6470,6 +7385,12 @@
   "common.report.done": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6482,6 +7403,18 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6492,6 +7425,12 @@
   "common.report.failed": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6504,6 +7443,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6514,6 +7459,18 @@
   "common.report.intimate.email": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6526,6 +7483,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6536,6 +7499,12 @@
   "common.report.intimate.intro": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6548,6 +7517,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6558,6 +7533,12 @@
   "common.report.intimate.who": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6570,6 +7551,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6580,6 +7567,12 @@
   "common.report.intimate.who.subject": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6592,6 +7585,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6602,6 +7601,12 @@
   "common.report.open": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6614,6 +7619,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6625,7 +7636,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6636,7 +7647,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6647,7 +7658,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6658,7 +7669,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6669,7 +7680,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6680,7 +7691,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6691,7 +7702,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6702,7 +7713,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6713,7 +7724,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6724,7 +7735,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6735,7 +7746,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6745,6 +7756,12 @@
   "common.report.reason": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6757,7 +7774,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6768,7 +7785,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6779,7 +7796,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6790,7 +7807,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6801,7 +7818,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6812,7 +7829,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/report/report-door.tsx",
+        "file": "packages/domain/src/content-report.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -6822,6 +7839,12 @@
   "common.report.sent.body": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6834,6 +7857,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6844,6 +7873,12 @@
   "common.report.sent.title": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -6856,6 +7891,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
         "attr": "",
@@ -6866,6 +7907,12 @@
   "common.report.title": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/report/report-door.tsx",
         "grain": "str",
@@ -7567,6 +8614,29 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/layout.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.slurCheck.address": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-settings-sections.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-settings-sections.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/events/[slug]/event-details-form.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -10380,7 +11450,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/community-hub.ts",
+        "file": "packages/domain/src/community-provenance.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -10391,7 +11461,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/community-hub.ts",
+        "file": "packages/domain/src/community-provenance.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -10402,7 +11472,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/community-hub.ts",
+        "file": "packages/domain/src/community-provenance.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -10413,7 +11483,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/community-hub.ts",
+        "file": "packages/domain/src/community-provenance.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -10424,7 +11494,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/community-hub.ts",
+        "file": "packages/domain/src/community-provenance.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -17049,6 +18119,17 @@
       }
     ]
   },
+  "dashboard.nav.site.complaints": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/lib/dashboard.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "dashboard.nav.site.events": {
     "accessibleName": false,
     "sites": [
@@ -19306,6 +20387,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/events/[slug]/host-tournament-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -19342,9 +20429,32 @@
       }
     ]
   },
+  "event.delete.staffNote": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-settings-sections.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/events/[slug]/host-tournament-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "event.delete.title": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/events/[slug]/host-tournament-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/events/[slug]/host-tournament-controls.tsx",
         "grain": "str",
@@ -20026,17 +21136,6 @@
       }
     ]
   },
-  "event.details.slug.hate": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/events/[slug]/event-details-form.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "event.details.slug.reserved": {
     "accessibleName": false,
     "sites": [
@@ -20280,6 +21379,23 @@
     ]
   },
   "event.discount.code.required": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/discount-code-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/events/discount-codes-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.discount.code.tooShort": {
     "accessibleName": false,
     "sites": [
       {
@@ -21386,12 +22502,24 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/components/events/organiser-table.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
   "event.organiser.remove.note": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/components/events/organiser-table.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/events/organiser-table.tsx",
         "grain": "str",
@@ -22012,6 +23140,24 @@
         "element": ""
       },
       {
+        "file": "apps/web/components/events/pass-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/events/pass-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/events/passes-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/events/passes-panel.tsx",
         "grain": "str",
         "attr": "",
@@ -22393,6 +23539,94 @@
       }
     ]
   },
+  "event.payments.host.contact": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.payments.host.contact.placeholder": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.payments.host.help": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.payments.host.name": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.payments.host.name.placeholder": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.payments.host.refundRules": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.payments.host.refundRules.placeholder": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.payments.host.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "event.payments.onsite.description": {
     "accessibleName": false,
     "sites": [
@@ -22418,6 +23652,23 @@
   "event.payments.save": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.payments.stripe.needsHost": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/payment-config-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/events/payment-config-panel.tsx",
         "grain": "str",
@@ -22732,6 +23983,85 @@
       },
       {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.register.host.contact": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/events/host-details-note.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.register.host.name": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/events/host-details-note.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.register.host.paidTitle": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/host-details-note.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.register.host.refundRules": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/events/host-details-note.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.register.host.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/events/host-details-note.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -24498,6 +25828,17 @@
       }
     ]
   },
+  "event.streamControl.moved": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/stream-control-room.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "event.streamControl.nothingOnStream": {
     "accessibleName": false,
     "sites": [
@@ -24509,6 +25850,17 @@
       },
       {
         "file": "apps/web/components/events/stream-side-switch.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.streamControl.played": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/stream-control-room.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -24538,6 +25890,17 @@
     ]
   },
   "event.streamControl.remove": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/events/stream-control-room.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.streamControl.removed": {
     "accessibleName": false,
     "sites": [
       {
@@ -30377,6 +31740,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/(tabs)/index.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/mobile/app/(tabs)/my-run.tsx",
         "grain": "str",
         "attr": "",
@@ -31006,6 +32375,12 @@
         "element": ""
       },
       {
+        "file": "apps/mobile/components/report-door.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/mobile/components/ui.tsx",
         "grain": "str",
         "attr": "",
@@ -31110,6 +32485,12 @@
   "mobile.under18.saveFailed": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/mobile/app/under-18.tsx",
         "grain": "str",
@@ -31686,6 +33067,50 @@
       }
     ]
   },
+  "notifications.email.footer": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.email.moderation.appealLink": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.email.moderation.closed": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.email.moderation.closedBody": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "notifications.push.checkInOpen": {
     "accessibleName": false,
     "sites": [
@@ -31724,6 +33149,72 @@
     "sites": [
       {
         "file": "packages/api/src/notifications/triggers.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.complaint.notUpheld": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/complaints.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.complaint.note": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/complaints.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.complaint.received": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/complaints.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.complaint.receivedBody": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/complaints.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.complaint.receivedIntimate": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/complaints.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.complaint.upheld": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/complaints.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31866,18 +33357,277 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "packages/api/src/notifications/announcements.ts",
+        "file": "packages/api/src/moderation-notice.ts",
         "grain": "str",
         "attr": "",
         "element": ""
       }
     ]
   },
-  "notifications.push.moderation.reason": {
+  "notifications.push.moderation.appeal": {
     "accessibleName": false,
     "sites": [
       {
-        "file": "packages/api/src/notifications/announcements.ts",
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.capabilitiesChanged": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.claimRevoked": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.communityRoleRemoved": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.eventDeleted": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.eventRoleRemoved": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.imageTakenDown": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.playerBanned": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.playerDetailsChanged": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.playerUnbanned": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.premiumDaysAdded": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.premiumRefunded": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.premiumTimeRefunded": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.reinstated": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.replayTakenDown": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.resultCorrected": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.suspended": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.tournamentDeleted": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.under18FlagCleared": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.under18Flagged": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.warned": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.moderation.why": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.nameHold.held": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/name-hold.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.nameHold.lifted": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/name-hold.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -32049,6 +33799,28 @@
     "sites": [
       {
         "file": "packages/api/src/notifications/triggers.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.slurCheck.addressSwapped": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "notifications.push.slurCheck.addressSwappedBody": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/api/src/moderation-notice.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -34511,6 +36283,28 @@
       }
     ]
   },
+  "player.nameHeld.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/players/[id]/banned-profile.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "player.nameHeld.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/players/[id]/banned-profile.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "player.rail.title": {
     "accessibleName": false,
     "sites": [
@@ -35069,6 +36863,23 @@
       }
     ]
   },
+  "profile.ageAndExtras.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/_layout.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/profile/account-hub.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "profile.browseCommunities": {
     "accessibleName": false,
     "sites": [
@@ -35465,6 +37276,12 @@
         "element": ""
       },
       {
+        "file": "apps/mobile/app/display-settings.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/profile/display-settings-section.tsx",
         "grain": "str",
         "attr": "",
@@ -35550,6 +37367,12 @@
         "element": ""
       },
       {
+        "file": "apps/mobile/app/display-settings.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/profile/display-settings-section.tsx",
         "grain": "str",
         "attr": "",
@@ -35582,6 +37405,12 @@
   "profile.display.language": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/display-settings.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/mobile/app/display-settings.tsx",
         "grain": "str",
@@ -35764,6 +37593,52 @@
       },
       {
         "file": "apps/web/app/[lang]/profile/display-settings-section.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "profile.extras.hide.hint": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/under-18-question.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "profile.extras.hide.label": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/under-18-question.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -36183,6 +38058,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/components/admin/player-edit-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -36202,6 +38083,12 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/profile/identity-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/admin/player-edit-dialog.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -36398,6 +38285,17 @@
     ]
   },
   "profile.orders.column.total": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/profile/account-hub.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "profile.orders.host": {
     "accessibleName": false,
     "sites": [
       {
@@ -36879,6 +38777,12 @@
       },
       {
         "file": "apps/web/app/[lang]/profile/premium-section.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/avatar-uploader.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -37433,6 +39337,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/under-18-question.tsx",
         "grain": "str",
         "attr": "",
@@ -37474,6 +39384,86 @@
       }
     ]
   },
+  "profile.under18.closed": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/under-18-question.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "profile.under18.closed.home": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/under-18-question.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "profile.under18.extras.hint": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/under-18-question.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "profile.under18.extras.label": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/under-18-question.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "profile.under18.month": {
     "accessibleName": false,
     "sites": [
@@ -37500,6 +39490,12 @@
   "profile.under18.month.placeholder": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/under-18-question.tsx",
         "grain": "str",
@@ -37620,18 +39616,6 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/app/_layout.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/profile/account-hub.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
         "file": "apps/web/components/under-18-footer-ask.tsx",
         "grain": "str",
         "attr": "",
@@ -37640,6 +39624,23 @@
     ]
   },
   "profile.under18.under13": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/under-18-question.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "profile.under18.under13.close": {
     "accessibleName": false,
     "sites": [
       {
@@ -37699,6 +39700,12 @@
   "profile.under18.year.placeholder": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/under-18-question.tsx",
         "grain": "str",
@@ -37916,7 +39923,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/about-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -37927,7 +39934,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/about-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -37938,7 +39945,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/about-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -38356,6 +40363,28 @@
       }
     ]
   },
+  "tournament.bracket.decider": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/bracket-run.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.bracket.deciderRound": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/bracket-run.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "tournament.bracket.ending.advances": {
     "accessibleName": false,
     "sites": [
@@ -38446,14 +40475,7 @@
   },
   "tournament.bracket.onStream": {
     "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-visualizer.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
+    "sites": []
   },
   "tournament.bracket.round.grandFinals": {
     "accessibleName": false,
@@ -38543,19 +40565,19 @@
         "element": ""
       },
       {
-        "file": "packages/api/src/round-labels.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "packages/api/src/tournament-run.ts",
+        "file": "packages/domain/src/bracket-run.ts",
         "grain": "str",
         "attr": "",
         "element": ""
       },
       {
         "file": "packages/domain/src/bracket-structure.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "packages/domain/src/round-labels.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -38572,7 +40594,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "packages/api/src/tournament-run.ts",
+        "file": "packages/domain/src/bracket-run.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -38600,7 +40622,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "packages/api/src/tournament-run.ts",
+        "file": "packages/domain/src/bracket-run.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -38962,6 +40984,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -39108,6 +41136,18 @@
       },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-dock.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -39461,6 +41501,221 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-dock.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.col.order": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.col.players": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.col.set": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.col.start": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.col.status": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.empty": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.free": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.freeNamed": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.noneFree": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.order": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.playingFor": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.ready": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.running": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.stations": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.status.dq": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.status.dqExpired": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.status.ready": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.stream": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.callList.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -40402,6 +42657,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -40410,6 +42671,12 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/end-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -41701,6 +43968,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -42424,13 +44697,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42469,13 +44736,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42486,13 +44747,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42520,13 +44775,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42537,7 +44786,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42548,13 +44797,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42565,13 +44808,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42582,13 +44819,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42644,13 +44875,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42672,13 +44897,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42689,7 +44908,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42700,13 +44919,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42717,13 +44930,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42768,13 +44975,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42785,13 +44986,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42819,13 +45014,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42876,19 +45065,13 @@
         "element": ""
       },
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
       },
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42905,19 +45088,13 @@
         "element": ""
       },
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
       },
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42938,6 +45115,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "packages/domain/src/ladder-dock.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -42945,13 +45128,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42962,13 +45139,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -42979,25 +45150,13 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
       },
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43008,13 +45167,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43025,13 +45178,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43042,13 +45189,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43059,13 +45200,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43076,13 +45211,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43121,13 +45250,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43138,13 +45261,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43155,13 +45272,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43172,13 +45283,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43189,13 +45294,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43206,13 +45305,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43246,6 +45339,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/components/ladder-card.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
         "grain": "str",
         "attr": "",
@@ -43257,13 +45356,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43274,19 +45367,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43301,12 +45382,6 @@
         "grain": "str",
         "attr": "",
         "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
       }
     ]
   },
@@ -43314,13 +45389,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43331,13 +45400,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43348,13 +45411,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43365,13 +45422,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43382,13 +45433,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43416,13 +45461,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43433,13 +45472,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/components/ladder-card.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "file": "packages/domain/src/ladder-dock.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43522,7 +45555,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stages-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43533,7 +45566,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/entrants-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43544,7 +45577,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stages-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -43555,7 +45588,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stages-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -44464,6 +46497,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/(tabs)/my-run.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/participation-block.tsx",
         "grain": "str",
         "attr": "",
@@ -44587,6 +46626,23 @@
       }
     ]
   },
+  "tournament.plan.goToStage": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/plan-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stages-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "tournament.plan.noAdvancement": {
     "accessibleName": false,
     "sites": [
@@ -44619,7 +46675,7 @@
         "element": ""
       },
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-view.ts",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-shell.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -44648,7 +46704,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-view.ts",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-shell.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -44694,7 +46750,7 @@
         "element": ""
       },
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-view.ts",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-shell.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -44856,6 +46912,983 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/player-card.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.bar.change": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.bar.event": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.bar.flag": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.bar.reset": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.bar.state": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.bar.summary": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.bar.tour": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.bar.viewAs": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-bar.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.event": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/lib/og-metadata.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "packages/domain/src/playground/view.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.eyebrow": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tournament.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.heading": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.lede": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.open": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.role.legend": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.role.player": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.role.playerLine": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.role.to": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.role.toLine": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.shape.legendPlayer": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.shape.legendTo": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.shape.line": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.intro.shape.name": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-intro.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.pool.bracket": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/view.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.pool.lettered": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/view.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.role.player": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.role.to": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.shape.local": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.shape.major": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.shape.regional": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.stage.pools": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/view.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.stage.top": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/view.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.state.before": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.state.between": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.state.finished": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.state.inProgress": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.state.pools": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.state.top8": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.state.topCut": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/setups.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.done": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.flag": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.live": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.next": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.bracket.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.bracket.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.called.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.called.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.plays.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.plays.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.pool.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.pool.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.replayOpen.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.replayOpen.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.report.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.report.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.trace.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.trace.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.replay.play.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.replay.play.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.replay.stats.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.replay.stats.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.replay.watch.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.replay.watch.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.skip": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.there": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.callOpen.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.callOpen.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.callRead.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.callRead.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.close.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.close.bodyLocal": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.close.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.floor.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.floor.bodyNoStation": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.floor.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.noShow.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.noShow.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.open.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.open.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.replayOpen.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.replayOpen.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.start.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.start.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.stream.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.to.stream.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.you": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/playground/view.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -45462,6 +48495,40 @@
       }
     ]
   },
+  "tournament.rail.allSets": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/rail-nav.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.rail.callList": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/rail-nav.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/tournament-rail.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "tournament.rail.entrants": {
     "accessibleName": false,
     "sites": [
@@ -45577,6 +48644,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tournament.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -45585,6 +48658,12 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/rail-nav.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -46019,6 +49098,12 @@
   "tournament.replay.addTo": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/set-replays.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-replays.tsx",
         "grain": "str",
@@ -46461,6 +49546,18 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/replay-batch.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/replay-batch.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -46841,6 +49938,17 @@
     "sites": [
       {
         "file": "apps/web/components/replay/replay-theatre.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.replay.heldBack": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/set-replays.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -48710,6 +51818,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/replay/replay-story.tsx",
         "grain": "str",
         "attr": "",
@@ -48739,6 +51853,12 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-replays.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -48976,6 +52096,12 @@
   "tournament.roster.sort": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/tournaments/[id]/sets.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/entrants-roster.tsx",
         "grain": "str",
@@ -49720,6 +52846,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-dialog-rail.tsx",
         "grain": "str",
         "attr": "",
@@ -49867,6 +52999,12 @@
       },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-timer-row.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -50132,6 +53270,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -50157,6 +53301,12 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-dialog-rail.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -50227,6 +53377,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -50245,6 +53401,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-timer-row.tsx",
         "grain": "str",
         "attr": "",
@@ -50255,6 +53417,12 @@
   "tournament.set.station": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-visualizer.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-dialog-rail.tsx",
         "grain": "str",
@@ -50277,6 +53445,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -50285,6 +53459,12 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/set-dialog-rail.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -50401,6 +53581,12 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/stream-camera-button.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -50709,6 +53895,12 @@
   "tournament.sets.sort.label": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/tournaments/[id]/sets.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/sets-table.tsx",
         "grain": "str",
@@ -51316,7 +54508,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stages-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -51327,7 +54519,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/lens-panels.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stages-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -52073,12 +55265,6 @@
         "element": ""
       },
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-dialog.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-format-fields.tsx",
         "grain": "str",
         "attr": "",
@@ -52086,11 +55272,116 @@
       }
     ]
   },
-  "tournament.stage.start.action": {
+  "tournament.stage.setLengthChange.kind.grandFinals": {
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-reads.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.losersRoundN": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-reads.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.none": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.opening": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.roundN": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-reads.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.summary": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-reads.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.then": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.top": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-reads.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.until": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-dialog.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.setLengthChange.winnersRoundN": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-reads.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -52108,7 +55399,238 @@
       }
     ]
   },
-  "tournament.stage.start.configure": {
+  "tournament.stage.start.brief.call.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.call.bodyCount": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.call.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.confirm": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.draw.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.draw.bodyRound": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.draw.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.drops.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.drops.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.firstRound": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.footer.manage": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.footer.plain": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.footer.seedList": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.footer.seedingTab": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.lock.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.lock.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.notYet": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.notify.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.notify.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.players": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-start.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.reviewSeeds": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.stage.start.brief.whenYouStart": {
     "accessibleName": false,
     "sites": [
       {
@@ -52127,10 +55649,16 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
-  "tournament.stage.start.confirm.title": {
+  "tournament.stage.start.go": {
     "accessibleName": false,
     "sites": [
       {
@@ -52158,55 +55686,17 @@
       }
     ]
   },
-  "tournament.stage.start.note.rebalancePools": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "tournament.stage.start.note.seedingList": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "tournament.stage.start.note.seedingTab": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "tournament.stage.start.note.settingsSeeds": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/start-stage-controls.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.stage.start.ready": {
     "accessibleName": false,
     "sites": [
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-tab.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stages-view.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -52560,7 +56050,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-tab.tsx",
+        "file": "packages/domain/src/stage-view.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -52591,14 +56081,7 @@
   },
   "tournament.stageView.end.topDecided": {
     "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-tab.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
+    "sites": []
   },
   "tournament.stageView.notStarted.body": {
     "accessibleName": false,
@@ -52636,6 +56119,12 @@
   "tournament.stageView.progress": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-tab.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-tab.tsx",
         "grain": "str",
@@ -52730,12 +56219,6 @@
         "grain": "str",
         "attr": "",
         "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-tab.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
       }
     ]
   },
@@ -52754,7 +56237,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/stage-tab.tsx",
+        "file": "packages/domain/src/stage-view.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -53262,6 +56745,18 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/stations-busy-strip.tsx",
         "grain": "str",
         "attr": "",
@@ -53371,6 +56866,12 @@
   "tournament.stations.preferred.on": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/call-list-view.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/stations-manager.tsx",
         "grain": "str",
@@ -53835,6 +57336,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -54206,17 +57713,6 @@
       }
     ]
   },
-  "tournament.walkUp.handleNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/[game]/t/[slug]/manual-entrant-controls.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.walkUp.prefix": {
     "accessibleName": false,
     "sites": [
@@ -54229,6 +57725,17 @@
     ]
   },
   "tournament.walkUp.submit": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/manual-entrant-controls.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.walkUp.under18": {
     "accessibleName": false,
     "sites": [
       {

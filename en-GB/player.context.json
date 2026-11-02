@@ -197,6 +197,8 @@
   "player.masthead.alsoIn": "Before links to the other games this player is in.",
   "player.masthead.tournaments": "After a formatted tournament count under an unranked player's name.",
   "player.masthead.unranked": "Under the name of a player with no rank on {community}'s board.",
+  "player.nameHeld.body": "Notice to staff on a held player's profile; {name} is the placeholder name everyone else sees.",
+  "player.nameHeld.title": "Title of the notice to staff on the profile of a player whose name is held (hidden) while a privacy request about them is decided.",
   "player.rail.title": "Heading of the player profile's section rail.",
   "player.rating.label": "Name of the rating series in the rating chart.",
   "player.rating.tooltip.ranked": "Rating chart tooltip: the player's rank on the board of {n} at that point.",
