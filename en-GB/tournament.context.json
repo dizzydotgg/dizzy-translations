@@ -105,6 +105,7 @@
   "tournament.bracketDock.out.lineLostTo": "The record, then who knocked the player out.",
   "tournament.bracketDock.out.status": "Status: the player has been knocked out of the bracket.",
   "tournament.bracketDock.playing.figure": "Screen-reader reading of the setup the set is on; {setup} is the station's name, by default its number (Station 2).",
+  "tournament.bracketDock.playing.station": "Beside Playing now in the bracket bar: the station the set is on. {setup} is the station's name, by default its number (Station 2).",
   "tournament.bracketDock.playing.status": "Status: the player's set has started.",
   "tournament.bracketDock.poolDone.line": "Second line of the bracket bar once the player's pool sets are done: how many sets the rest of the pool ({pool}) still has to play.",
   "tournament.bracketDock.poolDone.status": "Status in the bracket bar: the player has played every set in their round-robin pool, and the rest of the pool is still playing.",

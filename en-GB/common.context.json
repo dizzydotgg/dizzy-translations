@@ -404,7 +404,7 @@
   "common.og.player.unranked": "In a player's link-preview summary, when no community's board ranks them.",
   "common.og.playground.description": "Link-preview description of the Playground, the page where anyone can try a made-up bracket.",
   "common.og.playground.setupDescription": "Link-preview description of one Playground page. {role} is player (the visitor plays in the bracket) or to (they run it); {size} is how many players the made-up event has.",
-  "common.og.playground.setupTitle": "Link-preview and tab title of one Playground page. {event} is the made-up event's name (for example Playground Major); {role} is player or to, the seat the page shows the bracket from. TO is the usual short form of tournament organiser.",
+  "common.og.playground.setupTitle": "Link-preview and tab title of one Playground page. {event} is the made-up event's name (for example Example Major); {role} is player or to, the seat the page shows the bracket from. TO is the usual short form of tournament organiser.",
   "common.og.playground.title": "Link-preview and tab title of the Playground, the page where anyone can try a made-up bracket. Playground is the feature's name.",
   "common.og.section": "Link-preview and tab title of one section of a community's pages: {community} is the community's name, {section} the section's own title (for example Tournaments, or Upcoming events).",
   "common.og.series.kind": "Opening of a series' link-preview summary. A series is a run of recurring tournaments; Dizzy is the site's name.",

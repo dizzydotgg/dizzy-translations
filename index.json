@@ -41185,6 +41185,17 @@
       }
     ]
   },
+  "tournament.bracketDock.playing.station": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "packages/domain/src/bracket-dock.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "tournament.bracketDock.playing.status": {
     "accessibleName": false,
     "sites": [
