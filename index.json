@@ -41270,6 +41270,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
