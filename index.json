@@ -50669,17 +50669,6 @@
       }
     ]
   },
-  "tournament.replay.story.blaze.ballSpeedNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.replay.story.blaze.hitsBy": {
     "accessibleName": false,
     "sites": [
@@ -50702,29 +50691,7 @@
       }
     ]
   },
-  "tournament.replay.story.blaze.hitsTakenNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.replay.story.blaze.margins": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "tournament.replay.story.blaze.marginsNote": {
     "accessibleName": false,
     "sites": [
       {
@@ -50746,29 +50713,7 @@
       }
     ]
   },
-  "tournament.replay.story.blaze.possessionNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.replay.story.blaze.result": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "tournament.replay.story.blaze.resultNote": {
     "accessibleName": false,
     "sites": [
       {
@@ -51393,17 +51338,6 @@
       }
     ]
   },
-  "tournament.replay.story.melee.edgeguardsNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.replay.story.melee.escaping": {
     "accessibleName": false,
     "sites": [
@@ -51448,17 +51382,6 @@
       }
     ]
   },
-  "tournament.replay.story.melee.marginsNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.replay.story.melee.neutral": {
     "accessibleName": false,
     "sites": [
@@ -51475,17 +51398,6 @@
     "sites": [
       {
         "file": "apps/web/components/replay/replay-story.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "tournament.replay.story.melee.neutralNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -51558,17 +51470,6 @@
       }
     ]
   },
-  "tournament.replay.story.melee.punishesNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.replay.story.melee.punishesOne": {
     "accessibleName": false,
     "sites": [
@@ -51591,17 +51492,6 @@
       }
     ]
   },
-  "tournament.replay.story.melee.resultNote": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "tournament.replay.story.melee.stage": {
     "accessibleName": false,
     "sites": [
@@ -51614,17 +51504,6 @@
     ]
   },
   "tournament.replay.story.melee.techChase": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/lib/replay-story.ts",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "tournament.replay.story.melee.techChaseNote": {
     "accessibleName": false,
     "sites": [
       {
