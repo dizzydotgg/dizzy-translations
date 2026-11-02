@@ -143,7 +143,6 @@
   "profile.premium.cosmetic": "",
   "profile.premium.dormant": "",
   "profile.premium.endedOn": "",
-  "profile.premium.failed": "",
   "profile.premium.frozen": "",
   "profile.premium.handle": "",
   "profile.premium.handle.help": "",
@@ -195,6 +194,5 @@
   "profile.under18.why": "",
   "profile.under18.year": "",
   "profile.under18.year.placeholder": "",
-  "profile.under18.yes": "",
-  "profile.you": ""
+  "profile.under18.yes": ""
 }

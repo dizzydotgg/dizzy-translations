@@ -140,7 +140,6 @@
   "profile.premium.cosmetic": "Opening line of the Premium section.",
   "profile.premium.dormant": "State of an uploaded profile picture after Premium ends: kept, but not shown until they buy more time.",
   "profile.premium.endedOn": "Label of the date Premium time ran out, for an account whose Premium has ended.",
-  "profile.premium.failed": "Shown when opening Stripe checkout failed with no message of its own.",
   "profile.premium.frozen": "Handle perk state after Premium lapses: the handle is kept and cannot be changed.",
   "profile.premium.handle": "Premium perk: a chosen address for the player's profile page.",
   "profile.premium.handle.help": "Help under the Handle perk.",
@@ -192,6 +191,5 @@
   "profile.under18.why": "Under the birth month and year fields. It tells a child what is kept before they answer, so use short sentences and no legal words.",
   "profile.under18.year": "Label of the field for the year someone was born in.",
   "profile.under18.year.placeholder": "Grey text in the empty birth-year field.",
-  "profile.under18.yes": "One of two answer buttons under the question 'Are you under 18?'. This one means yes. It names the answer in full, because a bare Yes or No is easy to press the wrong way round.",
-  "profile.you": "Stands in for the account's name in the masthead when Discord supplied none."
+  "profile.under18.yes": "One of two answer buttons under the question 'Are you under 18?'. This one means yes. It names the answer in full, because a bare Yes or No is easy to press the wrong way round."
 }

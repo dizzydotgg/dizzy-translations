@@ -143,7 +143,6 @@
   "profile.premium.cosmetic": "Premium is cosmetic. It changes how your player looks and reads, and touches nothing competitive: not seeding, not the ratings, not who gets a place at an event.",
   "profile.premium.dormant": "Sleeping",
   "profile.premium.endedOn": "Ended on",
-  "profile.premium.failed": "Failed",
   "profile.premium.frozen": "Frozen",
   "profile.premium.handle": "Handle",
   "profile.premium.handle.help": "The address your player profile lives at.",
@@ -195,6 +194,5 @@
   "profile.under18.why": "We only keep the month you turn 18. We never keep your birthday.",
   "profile.under18.year": "Year",
   "profile.under18.year.placeholder": "Pick a year",
-  "profile.under18.yes": "Under 18",
-  "profile.you": "You"
+  "profile.under18.yes": "Under 18"
 }

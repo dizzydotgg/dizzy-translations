@@ -18465,18 +18465,6 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/app/[lang]/events/[slug]/checkout/return-client.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
         "attr": "",
@@ -19348,12 +19336,6 @@
         "grain": "str",
         "attr": "",
         "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/events/[slug]/event-banner-field.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
       }
     ]
   },
@@ -19404,12 +19386,6 @@
   "event.banner.uploadFailed": {
     "accessibleName": false,
     "sites": [
-      {
-        "file": "apps/web/app/[lang]/events/[slug]/event-banner-field.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
       {
         "file": "apps/web/app/[lang]/events/[slug]/event-banner-field.tsx",
         "grain": "str",
@@ -38806,17 +38782,6 @@
       }
     ]
   },
-  "profile.premium.failed": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/profile/premium-billing.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "profile.premium.frozen": {
     "accessibleName": false,
     "sites": [
@@ -39725,23 +39690,6 @@
       },
       {
         "file": "apps/web/components/under-18-question.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "profile.you": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/app/[lang]/profile/account-hub.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/profile/account-hub.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
