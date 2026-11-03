@@ -107,6 +107,12 @@
         "element": ""
       },
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/manual-entrant-controls.tsx",
         "grain": "str",
         "attr": "",
@@ -45502,6 +45508,79 @@
       }
     ]
   },
+  "tournament.ladder.order.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.order.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.player.drop": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.player.dropped": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-standing.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.player.restore": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "tournament.ladder.standing.empty": {
     "accessibleName": false,
     "sites": [
@@ -48151,6 +48230,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
         "grain": "str",
         "attr": "",
@@ -48279,6 +48364,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
         "grain": "str",
         "attr": "",
@@ -48301,6 +48392,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
         "grain": "str",
         "attr": "",
@@ -48311,6 +48408,12 @@
   "tournament.pools.reorder.save": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
         "grain": "str",
