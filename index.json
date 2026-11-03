@@ -20682,12 +20682,6 @@
         "element": ""
       },
       {
-        "file": "apps/mobile/app/events/[slug]/index.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
         "file": "apps/web/app/[lang]/events/[slug]/event-desk-rail.tsx",
         "grain": "str",
         "attr": "",
@@ -31395,14 +31389,7 @@
   },
   "mobile.register.loadFailed": {
     "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/mobile/app/events/[slug]/register.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
+    "sites": []
   },
   "mobile.register.name.help.edit": {
     "accessibleName": false,
