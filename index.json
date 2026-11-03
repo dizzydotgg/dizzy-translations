@@ -24042,6 +24042,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
         "attr": "",
@@ -24052,6 +24058,12 @@
   "event.register.method.card.help": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
@@ -24064,6 +24076,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
         "attr": "",
@@ -24075,6 +24093,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
         "attr": "",
@@ -24085,6 +24109,12 @@
   "event.register.method.legend": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
