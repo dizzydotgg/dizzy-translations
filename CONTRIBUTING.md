@@ -120,7 +120,7 @@ It matters because the same thing needs the same word everywhere. If one page sa
 
 ## When one English line needs two words in yours
 
-Sometimes the site uses one English line in two places, and your language needs a different word in each (French might want "Valider" on one button and "S'inscrire" on another, where English says "Enter" for both). You can't split it yourself, so open a [This string is wrong in my language](https://github.com/hyhydev/dizzy-translations/issues/new/choose) issue, give the key and the two places it shows up, and tick the box that says it needs two words. We'll split it in two, and both new lines will turn up empty in your language's file, ready for you to fill in.
+Sometimes the site uses one English line in two places, and your language needs a different word in each (French might want "Valider" on one button and "S'inscrire" on another, where English says "Enter" for both). You can't split it yourself, so open a [This string is wrong in my language](https://github.com/dizzydotgg/dizzy-translations/issues/new/choose) issue, give the key and the two places it shows up, and tick the box that says it needs two words. We'll split it in two, and both new lines will turn up empty in your language's file, ready for you to fill in.
 
 ## After your change is merged
 

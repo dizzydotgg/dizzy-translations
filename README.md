@@ -20,11 +20,11 @@ The table below is filled in automatically, so please don't edit it by hand.
 
 <!-- languages:end -->
 
-Want to add a language that isn't here? Open an issue with [I want to translate a new language](https://github.com/hyhydev/dizzy-translations/issues/new/choose) and we'll get it set up with you.
+Want to add a language that isn't here? Open an issue with [I want to translate a new language](https://github.com/dizzydotgg/dizzy-translations/issues/new/choose) and we'll get it set up with you.
 
 ## Seen something wrong?
 
-If a word or sentence on Dizzy reads badly in your language (or in English), open an issue with [This string is wrong in my language](https://github.com/hyhydev/dizzy-translations/issues/new/choose). Paste the text as you saw it, say where you saw it, and tell us what it should say if you know. You don't have to fix it yourself.
+If a word or sentence on Dizzy reads badly in your language (or in English), open an issue with [This string is wrong in my language](https://github.com/dizzydotgg/dizzy-translations/issues/new/choose). Paste the text as you saw it, say where you saw it, and tell us what it should say if you know. You don't have to fix it yourself.
 
 ## Licence
 
