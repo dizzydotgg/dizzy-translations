@@ -41,6 +41,7 @@
   "mobile.event.register": "Register",
   "mobile.event.registrationCloses": "Registration closes",
   "mobile.event.registrationOpens": "Registration opens",
+  "mobile.event.series.label": "Part of the {name} series, opens on the website",
   "mobile.event.sets": "Sets →",
   "mobile.event.signInToRegister": "Sign in to register for this event.",
   "mobile.event.standings": "Standings →",

@@ -30343,6 +30343,17 @@
       }
     ]
   },
+  "mobile.event.series.label": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/index.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "mobile.event.sets": {
     "accessibleName": false,
     "sites": [
@@ -32369,6 +32380,12 @@
     "sites": [
       {
         "file": "apps/mobile/app/(tabs)/index.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/app/events/[slug]/index.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
