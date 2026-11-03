@@ -597,6 +597,7 @@
   "event.tournaments.column.registration": "Registration",
   "event.tournaments.column.tournament": "Tournament",
   "event.tournaments.empty": "No tournaments yet{host, select, yes {. Add one above.} other {.}}",
+  "event.tournaments.finished": "This tournament has finished, so nobody can enter it.",
   "event.tournaments.imported": "Imported tournaments take entries on their source site, not here.",
   "event.tournaments.intro": "Registration lets players enter a tournament; Public lists it on the site.{moderator, select, yes { Hiding a tournament also stops it counting toward ratings.} other { A tournament that has started is locked public, so reveal it before it runs.}}",
   "event.tournaments.openSeeding": "Open seeding & bracket",

@@ -26155,6 +26155,17 @@
       }
     ]
   },
+  "event.tournaments.finished": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/events/[slug]/tournament-toggle-grid.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "event.tournaments.imported": {
     "accessibleName": false,
     "sites": [

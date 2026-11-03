@@ -597,6 +597,7 @@
   "event.tournaments.column.registration": "Column heading in the Tournaments grid: whether the bracket takes entries.",
   "event.tournaments.column.tournament": "Column heading in the Tournaments grid: the bracket's name.",
   "event.tournaments.empty": "When the event has no tournaments. The second sentence shows for a Host ({host} is yes), who can add one with the button above.",
+  "event.tournaments.finished": "Tooltip in place of the registration checkbox on a tournament hosted here that has finished: there is nothing left to enter.",
   "event.tournaments.imported": "Tooltip in place of the registration checkbox on a tournament imported from another site.",
   "event.tournaments.intro": "Over the Tournaments grid. Registration and Public name its two columns. The last sentence depends on the viewer: site staff ({moderator} is yes) read what hiding does to ratings, a Host reads when a tournament locks.",
   "event.tournaments.openSeeding": "Link on a Tournaments grid row to that bracket's own page, where it is seeded and run.",
