@@ -16,7 +16,7 @@ The table below is filled in automatically, so please don't edit it by hand.
 | ------------ | ------------ | -------------------------------------------- | -------------------- |
 | English (UK) | @hyhydev     | All (the original)                           | Yes                  |
 | English (US) | @hyhydev     | Only the lines that differ from English (UK) | Yes                  |
-| Deutsch      | @aTastyT0ast | Not started yet                              | Not yet              |
+| Deutsch      | @aTastyT0ast | 11% of the words                             | Not yet              |
 
 <!-- languages:end -->
 
