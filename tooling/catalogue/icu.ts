@@ -60,28 +60,44 @@ export function parseMessage(message: string): IcuNode[] {
  */
 export function argumentNames(message: string): string[] {
   const names = new Set<string>();
-  const plurals: string[] = [];
-  const walk = (nodes: IcuNode[]) => {
-    for (const node of nodes) {
-      const own = node.value !== undefined && plurals.includes(node.value);
-      if (
-        (node.type === ICU.argument ||
-          node.type === ICU.number ||
-          node.type === ICU.select ||
-          node.type === ICU.plural) &&
-        !own &&
-        node.value !== undefined
-      ) {
-        names.add(node.value);
-      }
-      if (node.options) {
-        if (node.type === ICU.plural) plurals.push(node.value ?? "");
-        for (const option of Object.values(node.options)) walk(option.value);
-        if (node.type === ICU.plural) plurals.pop();
-      }
-      if (node.children) walk(node.children);
-    }
-  };
-  walk(parseMessage(message));
+  collectArguments(parseMessage(message), names, []);
   return [...names].sort();
+}
+
+/** The kinds of node that name an argument a call site supplies. */
+const ARGUMENT_TYPES: ReadonlySet<number> = new Set([
+  ICU.argument,
+  ICU.number,
+  ICU.select,
+  ICU.plural,
+]);
+
+/** Walks a message's tree into `names`, with `plurals` the plurals the walk
+ *  is inside, by argument name. */
+function collectArguments(
+  nodes: IcuNode[],
+  names: Set<string>,
+  plurals: string[]
+): void {
+  for (const node of nodes) {
+    const own = node.value !== undefined && plurals.includes(node.value);
+    if (ARGUMENT_TYPES.has(node.type) && !own && node.value !== undefined) {
+      names.add(node.value);
+    }
+    if (node.options) collectFromOptions(node, names, plurals);
+    if (node.children) collectArguments(node.children, names, plurals);
+  }
+}
+
+/** A select's or a plural's branches; inside a plural, its own value is not
+ *  a separate argument. */
+function collectFromOptions(
+  node: IcuNode,
+  names: Set<string>,
+  plurals: string[]
+): void {
+  if (node.type === ICU.plural) plurals.push(node.value ?? "");
+  for (const option of Object.values(node.options ?? {}))
+    collectArguments(option.value, names, plurals);
+  if (node.type === ICU.plural) plurals.pop();
 }

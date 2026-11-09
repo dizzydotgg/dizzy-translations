@@ -201,12 +201,9 @@ export function coverage(input: CoverageInput): CoverageReport {
     const names = bucket("accessible names");
     for (const key of keys) {
       const value = catalogue[key] ?? "";
-      const state =
-        value === ""
-          ? "missing"
-          : outdated.has(key)
-            ? "outdated"
-            : "translated";
+      let state: "missing" | "outdated" | "translated" = "translated";
+      if (value === "") state = "missing";
+      else if (outdated.has(key)) state = "outdated";
       const n = words.get(key)!;
       count(perSurface.get(surfaceOf(key))!, state, n);
       count(all, state, n);
@@ -229,10 +226,11 @@ const pct = (part: number, whole: number) =>
   `${(whole === 0 ? 0 : (100 * part) / whole).toFixed(1)}%`;
 const share = (s: SurfaceCoverage) =>
   s.total.words === 0 ? 0 : (100 * s.translated.words) / s.total.words;
-const delta = (now: number, before: number | undefined) =>
-  before === undefined
-    ? ""
-    : ` (${now - before >= 0 ? "+" : "-"}${Math.abs(now - before).toFixed(1)})`;
+const delta = (now: number, before: number | undefined) => {
+  if (before === undefined) return "";
+  const sign = now - before >= 0 ? "+" : "-";
+  return ` (${sign}${Math.abs(now - before).toFixed(1)})`;
+};
 
 /**
  * The report as Markdown. With a `base` (the same report over the catalogue

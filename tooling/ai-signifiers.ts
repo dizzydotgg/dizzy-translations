@@ -12,7 +12,7 @@
 // matching the release check's rule that an error is only ever something
 // certain. Two deliberate absences:
 //
-//   - a bare `AI`, because it is Anguilla in apps/web/lib/countries.ts
+//   - a bare `AI`, because it is Anguilla in packages/domain/src/countries.ts
 //   - a bare "generated", because the Prisma client and the release history are
 //     both legitimately generated
 //

@@ -1,5 +1,3 @@
 {
-  "notifications.category.announcement.description": "Messages from the organizers of events you've entered.",
-  "notifications.category.gameRequest.description": "A game you requested is added to the catalog, or declined.",
-  "notifications.push.gameRequest.added": "{game} is now in the catalog. Re-run your import"
+  "notifications.category.announcement.description": "Messages from the organizers of events you've entered."
 }
