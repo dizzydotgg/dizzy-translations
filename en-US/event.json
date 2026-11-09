@@ -2,7 +2,6 @@
   "event.addTournament.intro": "Creates a double-elimination bracket to start. You can customize the format, then seed and start it from the Tournament page once entries are in.",
   "event.checkout.cancelled.title": "This checkout was canceled",
   "event.create.intro": "You'll become its Host. You can edit settings and add co-Hosts afterward.",
-  "event.create.location.help": "Location is optional: set either, both, or neither. The venue badge is derived from what you fill out.",
   "event.organiser.add": "+ Add Organizer",
   "event.organiser.add.title": "Add organizer",
   "event.organiser.column.organiser": "Organizer",

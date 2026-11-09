@@ -315,7 +315,7 @@ if (import.meta.main) {
       renderSummary(
         result,
         prs,
-        option("--repo") ?? "hyhydev/dizzy-translations"
+        option("--repo") ?? "dizzydotgg/dizzy-translations"
       )
     );
   console.log(

@@ -1,6 +1,7 @@
 {
   "mobile.activeSets.round": "Part of a set's details line, after the bracket side's name: the round number within that side.",
   "mobile.activeSets.tiebreak": "Part of a set's details line: the set is a tiebreak played to split a tie.",
+  "mobile.chooseName.open": "Button on the phone that opens the screen where a person chooses their player name (shown while their account still has a neutral starting name, and under a registration refused for it).",
   "mobile.communities.all": "Heading on the Communities tab over every community the viewer does not follow, when a \"Yours\" group sits above it.",
   "mobile.communities.home": "Flag beside the viewer's home community in the Communities tab list.",
   "mobile.community.boardTitle": "Section heading on a community's screen; {game} is the game the board ranks.",

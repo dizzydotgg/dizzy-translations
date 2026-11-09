@@ -54,6 +54,14 @@ import { type Locales } from "../i18n/locales";
 import { localesSchema } from "./locales.schema";
 import { parseGlossary } from "./glossary.schema";
 
+/** Orders two strings by their UTF-16 code units. Its own copy of
+ *  @llbdb/domain/compare: this file ships to the public translations repo as
+ *  tooling (scripts/translations/down-sync.ts), which may not reach into src. */
+function byCodeUnits(a: string, b: string): number {
+  if (a < b) return -1;
+  return a > b ? 1 : 0;
+}
+
 export type Guard =
   | "shape"
   | "manifest"
@@ -127,7 +135,7 @@ export function checkCatalogues(input: GuardInput): Problem[] {
       problems.push({
         guard: "manifest",
         file: "locales.json",
-        message: `${issue.path.length > 0 ? `${issue.path.join(".")}: ` : ""}${issue.message}`,
+        message: `${issue.path.length > 0 ? issue.path.join(".") + ": " : ""}${issue.message}`,
       });
     }
     return sorted(problems);
@@ -196,47 +204,10 @@ function checkGlossaries(
   glossaries: Readonly<Record<string, unknown>>,
   problems: Problem[]
 ) {
-  const fileOf = (code: string) => `glossary/${code}.json`;
   const parsed = new Map<string, ReadonlySet<string>>();
   for (const [code, raw] of Object.entries(glossaries)) {
-    const file = fileOf(code);
-    if (!(code in locales)) {
-      problems.push({
-        guard: "manifest",
-        locale: code,
-        file,
-        message:
-          "is not named after a language in locales.json; a glossary file takes its language's code, like fr.json or pt-BR.json",
-      });
-      continue;
-    }
-    const result = parseGlossary(raw);
-    if (!result.ok) {
-      for (const issue of result.error.issues) {
-        const [term, ...rest] = issue.path;
-        problems.push({
-          guard: "manifest",
-          locale: code,
-          file,
-          ...(term !== undefined ? { key: String(term) } : {}),
-          message: `${rest.length > 0 ? `${rest.join(".")}: ` : ""}${issue.message}`,
-        });
-      }
-      continue;
-    }
-    parsed.set(code, new Set(Object.keys(result.terms)));
-    if (code !== SOURCE_LOCALE) continue;
-    for (const [term, entry] of Object.entries(result.terms)) {
-      if ((entry.note ?? "").trim() !== "") continue;
-      problems.push({
-        guard: "manifest",
-        locale: code,
-        file,
-        key: term,
-        message:
-          "the English glossary's note is the term's definition, so a translator knows what the thing is; write one",
-      });
-    }
+    const terms = readGlossary(locales, code, raw, problems);
+    if (terms !== undefined) parsed.set(code, terms);
   }
 
   const reference = parsed.get(SOURCE_LOCALE);
@@ -245,7 +216,7 @@ function checkGlossaries(
       problems.push({
         guard: "manifest",
         locale: SOURCE_LOCALE,
-        file: fileOf(SOURCE_LOCALE),
+        file: glossaryFile(SOURCE_LOCALE),
         message: "is missing; every other glossary is checked against it",
       });
     }
@@ -258,12 +229,63 @@ function checkGlossaries(
       problems.push({
         guard: "manifest",
         locale: code,
-        file: fileOf(code),
+        file: glossaryFile(code),
         key: term,
-        message: `is not defined; every glossary defines every term ${fileOf(SOURCE_LOCALE)} does`,
+        message: `is not defined; every glossary defines every term ${glossaryFile(SOURCE_LOCALE)} does`,
       });
     }
   }
+}
+
+const glossaryFile = (code: string) => `glossary/${code}.json`;
+
+/** One glossary file's terms, or undefined when it names no declared locale
+ *  or does not fit its schema (each reported). */
+function readGlossary(
+  locales: Locales,
+  code: string,
+  raw: unknown,
+  problems: Problem[]
+): ReadonlySet<string> | undefined {
+  const file = glossaryFile(code);
+  if (!(code in locales)) {
+    problems.push({
+      guard: "manifest",
+      locale: code,
+      file,
+      message:
+        "is not named after a language in locales.json; a glossary file takes its language's code, like fr.json or pt-BR.json",
+    });
+    return undefined;
+  }
+  const result = parseGlossary(raw);
+  if (!result.ok) {
+    for (const issue of result.error.issues) {
+      const [term, ...rest] = issue.path;
+      problems.push({
+        guard: "manifest",
+        locale: code,
+        file,
+        ...(term !== undefined ? { key: String(term) } : {}),
+        message: `${rest.length > 0 ? rest.join(".") + ": " : ""}${issue.message}`,
+      });
+    }
+    return undefined;
+  }
+  const terms = new Set(Object.keys(result.terms));
+  if (code !== SOURCE_LOCALE) return terms;
+  for (const [term, entry] of Object.entries(result.terms)) {
+    if ((entry.note ?? "").trim() !== "") continue;
+    problems.push({
+      guard: "manifest",
+      locale: code,
+      file,
+      key: term,
+      message:
+        "the English glossary's note is the term's definition, so a translator knows what the thing is; write one",
+    });
+  }
+  return terms;
 }
 
 // --- shape: flat, sorted, string-valued, each key in its file ---
@@ -277,52 +299,63 @@ function checkShape(
     for (const namespace of NAMESPACES) {
       const raw = files[code]![namespace];
       if (raw === undefined) continue;
-      const file = `${namespace}.json`;
-      if (!isRecord(raw)) {
-        problems.push({
-          guard: "shape",
-          locale: code,
-          file,
-          message: "not an object",
-        });
-        continue;
-      }
-      const keys = Object.keys(raw);
-      const inOrder = [...keys].sort();
-      const outOfPlace = inOrder.find((key, i) => keys[i] !== key);
-      if (outOfPlace !== undefined) {
-        problems.push({
-          guard: "shape",
-          locale: code,
-          file,
-          key: outOfPlace,
-          message: "keys are not sorted (first out of place)",
-        });
-      }
-      for (const [key, value] of Object.entries(raw)) {
-        if (typeof value !== "string") {
-          problems.push({
-            guard: "shape",
-            locale: code,
-            file,
-            key,
-            message: "not a string",
-          });
-        }
-        const home = namespaceOf(key);
-        if (home !== namespace) {
-          problems.push({
-            guard: "shape",
-            locale: code,
-            file,
-            key,
-            message:
-              home === null
-                ? "no namespace claims it; the first segment names the file"
-                : `belongs in ${home}.json`,
-          });
-        }
-      }
+      checkFileShape(code, namespace, raw, problems);
+    }
+  }
+}
+
+/** One catalogue file: an object, its keys sorted, each a string in its own
+ *  namespace. */
+function checkFileShape(
+  code: string,
+  namespace: string,
+  raw: unknown,
+  problems: Problem[]
+) {
+  const file = `${namespace}.json`;
+  if (!isRecord(raw)) {
+    problems.push({
+      guard: "shape",
+      locale: code,
+      file,
+      message: "not an object",
+    });
+    return;
+  }
+  const keys = Object.keys(raw);
+  const inOrder = [...keys].sort();
+  const outOfPlace = inOrder.find((key, i) => keys[i] !== key);
+  if (outOfPlace !== undefined) {
+    problems.push({
+      guard: "shape",
+      locale: code,
+      file,
+      key: outOfPlace,
+      message: "keys are not sorted (first out of place)",
+    });
+  }
+  for (const [key, value] of Object.entries(raw)) {
+    if (typeof value !== "string") {
+      problems.push({
+        guard: "shape",
+        locale: code,
+        file,
+        key,
+        message: "not a string",
+      });
+    }
+    const home = namespaceOf(key);
+    if (home !== namespace) {
+      problems.push({
+        guard: "shape",
+        locale: code,
+        file,
+        key,
+        message:
+          home === null
+            ? "no namespace claims it; the first segment names the file"
+            : `belongs in ${home}.json`,
+      });
     }
   }
 }
@@ -376,6 +409,75 @@ type Where = { locale: string; file: string; key: string };
 
 const fileOf = (key: string) => `${namespaceOf(key) ?? "?"}.json`;
 
+/** What a walk of one message's tree gathers as it goes. */
+type IcuWalk = {
+  placeholders: Set<string>;
+  tags: Set<string>;
+  plurals: string[];
+  report: (guard: Guard, message: string) => void;
+};
+
+function walkIcu(nodes: IcuNode[], walk: IcuWalk): void {
+  for (const node of nodes) {
+    noteIcuNode(node, walk);
+    if (node.options) {
+      if (node.type === ICU.plural) walk.plurals.push(node.value ?? "");
+      for (const option of Object.values(node.options))
+        walkIcu(option.value, walk);
+      if (node.type === ICU.plural) walk.plurals.pop();
+    }
+    if (node.children) walkIcu(node.children, walk);
+  }
+}
+
+/** What one node of a message adds to its anatomy, and what is wrong with it. */
+function noteIcuNode(
+  node: IcuNode,
+  { placeholders, tags, plurals, report }: IcuWalk
+): void {
+  const own = node.value !== undefined && plurals.includes(node.value);
+  switch (node.type) {
+    case ICU.argument:
+      if (!own) placeholders.add(`{${node.value}}`);
+      break;
+    case ICU.number:
+      if (!own) placeholders.add(`{${node.value}, number}`);
+      if (node.style !== null && node.style !== undefined) {
+        report(
+          "icu",
+          `write {${node.value}, number} with nothing after the word number. The site formats numbers and money itself`
+        );
+      }
+      break;
+    case ICU.date:
+    case ICU.time: {
+      const kind = node.type === ICU.date ? "date" : "time";
+      report(
+        "icu",
+        `{${node.value}, ${kind}} can't be used here. The site writes out ${kind}s itself, in each reader's own time zone`
+      );
+      break;
+    }
+    case ICU.select:
+      placeholders.add(`{${node.value}, select}`);
+      break;
+    case ICU.plural:
+      placeholders.add(
+        `{${node.value}, ${node.pluralType === "ordinal" ? "selectordinal" : "plural"}}`
+      );
+      break;
+    case ICU.tag:
+      tags.add(node.value ?? "");
+      if (!RICH_TAGS.has(node.value ?? "")) {
+        report(
+          "tags",
+          `<${node.value}> isn't allowed. Only ${[...RICH_TAGS].map((t) => "<" + t + ">").join(", ")} can be used, and only where the English has them`
+        );
+      }
+      break;
+  }
+}
+
 /**
  * Parse one message and report what is wrong with it on its own: a parse
  * failure, a banned argument type, a tag outside the closed set, a
@@ -405,63 +507,16 @@ function analyse(
     );
     return undefined;
   }
-  const placeholders = new Set<string>();
-  const tags = new Set<string>();
-  // The plurals the cursor is inside, by argument name: within one, `{count}`
-  // and `#` are the plural's own value.
-  const plurals: string[] = [];
-  const walk = (nodes: IcuNode[]) => {
-    for (const node of nodes) {
-      const own = node.value !== undefined && plurals.includes(node.value);
-      switch (node.type) {
-        case ICU.argument:
-          if (!own) placeholders.add(`{${node.value}}`);
-          break;
-        case ICU.number:
-          if (!own) placeholders.add(`{${node.value}, number}`);
-          if (node.style !== null && node.style !== undefined) {
-            report(
-              "icu",
-              `write {${node.value}, number} with nothing after the word number. The site formats numbers and money itself`
-            );
-          }
-          break;
-        case ICU.date:
-        case ICU.time: {
-          const kind = node.type === ICU.date ? "date" : "time";
-          report(
-            "icu",
-            `{${node.value}, ${kind}} can't be used here. The site writes out ${kind}s itself, in each reader's own time zone`
-          );
-          break;
-        }
-        case ICU.select:
-          placeholders.add(`{${node.value}, select}`);
-          break;
-        case ICU.plural:
-          placeholders.add(
-            `{${node.value}, ${node.pluralType === "ordinal" ? "selectordinal" : "plural"}}`
-          );
-          break;
-        case ICU.tag:
-          tags.add(node.value ?? "");
-          if (!RICH_TAGS.has(node.value ?? "")) {
-            report(
-              "tags",
-              `<${node.value}> isn't allowed. Only ${[...RICH_TAGS].map((t) => `<${t}>`).join(", ")} can be used, and only where the English has them`
-            );
-          }
-          break;
-      }
-      if (node.options) {
-        if (node.type === ICU.plural) plurals.push(node.value ?? "");
-        for (const option of Object.values(node.options)) walk(option.value);
-        if (node.type === ICU.plural) plurals.pop();
-      }
-      if (node.children) walk(node.children);
-    }
+  const walk: IcuWalk = {
+    placeholders: new Set<string>(),
+    tags: new Set<string>(),
+    // The plurals the cursor is inside, by argument name: within one,
+    // `{count}` and `#` are the plural's own value.
+    plurals: [],
+    report,
   };
-  walk(ast);
+  walkIcu(ast, walk);
+  const { placeholders, tags } = walk;
   return {
     placeholders: [...placeholders].sort(),
     tags: [...tags].sort(),
@@ -522,41 +577,59 @@ function compareToReference(
       const at = { locale: code, file: fileOf(key), key };
       const mine = anatomies.get(code)!.get(key);
       const theirs = anatomyOf(english, key);
-      if (mine !== undefined && theirs !== undefined) {
-        const differs = (a: string[], b: string[]) =>
-          a.join("|") !== b.join("|");
-        if (differs(mine.placeholders, theirs.placeholders)) {
-          problems.push({
-            guard: "placeholders",
-            ...at,
-            message: `the parts in curly braces don't match the English. Yours has ${describe(mine.placeholders)}, the English has ${describe(theirs.placeholders)}. Copy each one exactly, you can move it anywhere`,
-          });
-        }
-        if (differs(mine.tags, theirs.tags)) {
-          const tag = (t: string) => `<${t}>`;
-          problems.push({
-            guard: "tags",
-            ...at,
-            message: `the tags don't match the English. Yours has ${describe(mine.tags, tag)}, the English has ${describe(theirs.tags, tag)}`,
-          });
-        }
-        if (differs(mine.urls, theirs.urls)) {
-          problems.push({
-            guard: "tags",
-            ...at,
-            message: `the web links don't match the English. Yours has ${describe(mine.urls)}, the English has ${describe(theirs.urls)}`,
-          });
-        }
-      }
-      const ceiling = Math.max(3 * english.length, english.length + 40);
-      if (value.length > ceiling) {
-        problems.push({
-          guard: "length",
-          ...at,
-          message: `this is ${value.length} characters, too long for the space it's shown in. The most is ${ceiling} (the English is ${english.length})`,
-        });
-      }
+      if (mine !== undefined && theirs !== undefined)
+        compareAnatomies(mine, theirs, at, problems);
+      checkLength(value, english, at, problems);
     }
+  }
+}
+
+/** A translation's placeholders, tags and URLs against its English's. */
+function compareAnatomies(
+  mine: Anatomy,
+  theirs: Anatomy,
+  at: Where,
+  problems: Problem[]
+) {
+  const differs = (a: string[], b: string[]) => a.join("|") !== b.join("|");
+  if (differs(mine.placeholders, theirs.placeholders)) {
+    problems.push({
+      guard: "placeholders",
+      ...at,
+      message: `the parts in curly braces don't match the English. Yours has ${describe(mine.placeholders)}, the English has ${describe(theirs.placeholders)}. Copy each one exactly, you can move it anywhere`,
+    });
+  }
+  if (differs(mine.tags, theirs.tags)) {
+    const tag = (t: string) => `<${t}>`;
+    problems.push({
+      guard: "tags",
+      ...at,
+      message: `the tags don't match the English. Yours has ${describe(mine.tags, tag)}, the English has ${describe(theirs.tags, tag)}`,
+    });
+  }
+  if (differs(mine.urls, theirs.urls)) {
+    problems.push({
+      guard: "tags",
+      ...at,
+      message: `the web links don't match the English. Yours has ${describe(mine.urls)}, the English has ${describe(theirs.urls)}`,
+    });
+  }
+}
+
+/** A translation no longer than the space its English is shown in allows. */
+function checkLength(
+  value: string,
+  english: string,
+  at: Where,
+  problems: Problem[]
+) {
+  const ceiling = Math.max(3 * english.length, english.length + 40);
+  if (value.length > ceiling) {
+    problems.push({
+      guard: "length",
+      ...at,
+      message: `this is ${value.length} characters, too long for the space it's shown in. The most is ${ceiling} (the English is ${english.length})`,
+    });
   }
 }
 
@@ -578,48 +651,70 @@ function checkKeys(
     if (code === SOURCE_LOCALE) continue;
     const variant = isVariantLocale(code);
     const catalogue = catalogues.get(code)!;
-    for (const [key, value] of Object.entries(catalogue)) {
-      const at = {
-        guard: "keys" as const,
-        locale: code,
-        file: fileOf(key),
-        key,
-      };
-      if (!(key in source)) {
-        problems.push({ ...at, message: `not a key ${SOURCE_LOCALE} has` });
-      } else if (variant && value === source[key]) {
-        problems.push({
-          ...at,
-          message: `identical to ${SOURCE_LOCALE}; a variant locale carries only what differs`,
-        });
-      } else if (variant && value === "") {
-        problems.push({
-          ...at,
-          message: `empty; a variant locale carries only what differs, so a key it does not change is absent`,
-        });
-      }
-    }
+    checkCarriedKeys(code, variant, catalogue, source, problems);
     if (variant) continue;
-    for (const [file, keys] of sourceKeysByFile) {
-      if (files[code]![file.replace(/\.json$/, "")] === undefined) {
-        problems.push({
-          guard: "keys",
-          locale: code,
-          file,
-          message: `this file is missing. The English one has ${countOf(keys.length, "line", "lines")} in it`,
-        });
-        continue;
-      }
-      for (const key of keys) {
-        if (key in catalogue) continue;
-        problems.push({
-          guard: "keys",
-          locale: code,
-          file,
-          key,
-          message: `this line is missing. Every language keeps every line the English has, with "" for ones not translated yet`,
-        });
-      }
+    checkMissingKeys(code, files, catalogue, sourceKeysByFile, problems);
+  }
+}
+
+/** Every key a locale carries is the source's, and a variant's differs. */
+function checkCarriedKeys(
+  code: string,
+  variant: boolean,
+  catalogue: Catalogue,
+  source: Catalogue,
+  problems: Problem[]
+) {
+  for (const [key, value] of Object.entries(catalogue)) {
+    const at = {
+      guard: "keys" as const,
+      locale: code,
+      file: fileOf(key),
+      key,
+    };
+    if (!(key in source)) {
+      problems.push({ ...at, message: `not a key ${SOURCE_LOCALE} has` });
+    } else if (variant && value === source[key]) {
+      problems.push({
+        ...at,
+        message: `identical to ${SOURCE_LOCALE}; a variant locale carries only what differs`,
+      });
+    } else if (variant && value === "") {
+      problems.push({
+        ...at,
+        message: `empty; a variant locale carries only what differs, so a key it does not change is absent`,
+      });
+    }
+  }
+}
+
+/** A translation keeps every file and every line the source has. */
+function checkMissingKeys(
+  code: string,
+  files: GuardInput["files"],
+  catalogue: Catalogue,
+  sourceKeysByFile: Map<string, string[]>,
+  problems: Problem[]
+) {
+  for (const [file, keys] of sourceKeysByFile) {
+    if (files[code]![file.replace(/\.json$/, "")] === undefined) {
+      problems.push({
+        guard: "keys",
+        locale: code,
+        file,
+        message: `this file is missing. The English one has ${countOf(keys.length, "line", "lines")} in it`,
+      });
+      continue;
+    }
+    for (const key of keys) {
+      if (key in catalogue) continue;
+      problems.push({
+        guard: "keys",
+        locale: code,
+        file,
+        key,
+        message: `this line is missing. Every language keeps every line the English has, with "" for ones not translated yet`,
+      });
     }
   }
 }
@@ -634,19 +729,18 @@ function checkProse(
 ) {
   for (const code of declared) {
     const english = code === SOURCE_LOCALE || isVariantLocale(code);
+    const bans = prose.filter((ban) => ban.scope !== "english" || english);
     for (const [key, value] of Object.entries(catalogues.get(code)!)) {
       if (value === "") continue;
-      for (const ban of prose) {
-        if (ban.scope === "english" && !english) continue;
-        if (ban.test(value)) {
-          problems.push({
-            guard: "prose",
-            locale: code,
-            file: fileOf(key),
-            key,
-            message: ban.label,
-          });
-        }
+      for (const ban of bans) {
+        if (!ban.test(value)) continue;
+        problems.push({
+          guard: "prose",
+          locale: code,
+          file: fileOf(key),
+          key,
+          message: ban.label,
+        });
       }
     }
   }
@@ -703,7 +797,5 @@ function countOf(n: number, one: string, many: string): string {
 function sorted(problems: Problem[]): Problem[] {
   const rank = (p: Problem) =>
     [p.locale ?? "", p.file ?? "", p.key ?? "", p.message].join("\u0000");
-  return problems.sort((a, b) =>
-    rank(a) < rank(b) ? -1 : rank(a) > rank(b) ? 1 : 0
-  );
+  return problems.sort((a, b) => byCodeUnits(rank(a), rank(b)));
 }
