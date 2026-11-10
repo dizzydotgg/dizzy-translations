@@ -113,7 +113,7 @@
   "mobile.premium.setUpOnWeb": "Set up Premium on the web →",
   "mobile.premium.signIn": "Sign in to see your Premium standing.",
   "mobile.privacy.analytics": "Usage analytics",
-  "mobile.privacy.analytics.meta": "Anonymous, and stored on Dizzy's own analytics server.",
+  "mobile.privacy.analytics.meta": "Counted on Dizzy's own analytics server.",
   "mobile.privacy.appearance": "Remember display choices",
   "mobile.privacy.appearance.meta": "Keeps the language and date format you pick on this phone. Turned off, a pick lasts until you close the app.",
   "mobile.privacy.intro": "Dizzy counts how the app is used, so the parts that trip people up can be found and fixed. Leaving it on helps us improve.",

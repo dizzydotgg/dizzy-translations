@@ -338,7 +338,6 @@
   "common.location.heading": "Heading of the location popover.",
   "common.location.hint": "Under common.location.heading.",
   "common.location.noMatch": "Shown when a town search finds nothing.",
-  "common.location.promise": "Beside the control where a viewer says which town they are in.",
   "common.location.saveFailed": "Error toast when the viewer's town cannot be saved.",
   "common.location.searchLabel": "Screen-reader name of the town search box.",
   "common.markdown.image.alt.help": "Under the alt-text box: what the description is for.",

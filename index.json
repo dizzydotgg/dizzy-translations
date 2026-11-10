@@ -5438,17 +5438,6 @@
       }
     ]
   },
-  "common.location.promise": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/viewer-location/viewer-location-pill.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "common.location.saveFailed": {
     "accessibleName": false,
     "sites": [
