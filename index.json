@@ -2701,7 +2701,7 @@
       }
     ]
   },
-  "common.consent.acceptAll": {
+  "common.consent.notice": {
     "accessibleName": false,
     "sites": [
       {
@@ -2712,7 +2712,18 @@
       }
     ]
   },
-  "common.consent.notice": {
+  "common.consent.ok": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/cookie-consent.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.consent.openPrefs": {
     "accessibleName": false,
     "sites": [
       {
@@ -2751,68 +2762,7 @@
       }
     ]
   },
-  "common.consent.prefs.appearance": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/cookie-consent.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
-        "file": "apps/web/components/cookie-consent.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "common.consent.prefs.appearanceHint": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/cookie-consent.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
   "common.consent.prefs.description": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/cookie-consent.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "common.consent.prefs.functional": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/cookie-consent.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "common.consent.prefs.functionalHint": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/cookie-consent.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "common.consent.prefs.functionalLabel": {
     "accessibleName": false,
     "sites": [
       {
@@ -2856,6 +2806,34 @@
       }
     ]
   },
+  "common.consent.prefs.preferences": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/cookie-consent.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/cookie-consent.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.consent.prefs.preferencesHint": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/cookie-consent.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "common.consent.prefs.save": {
     "accessibleName": false,
     "sites": [
@@ -2868,17 +2846,6 @@
     ]
   },
   "common.consent.prefs.title": {
-    "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/web/components/cookie-consent.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
-  },
-  "common.consent.rejectAll": {
     "accessibleName": false,
     "sites": [
       {

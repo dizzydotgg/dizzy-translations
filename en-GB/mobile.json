@@ -116,7 +116,7 @@
   "mobile.privacy.analytics.meta": "Anonymous, and stored on Dizzy's own analytics server.",
   "mobile.privacy.appearance": "Remember display choices",
   "mobile.privacy.appearance.meta": "Keeps the language and date format you pick on this phone. Turned off, a pick lasts until you close the app.",
-  "mobile.privacy.intro": "Dizzy can count how the app is used, so the parts that trip people up can be found and fixed. This is off unless you turn it on.",
+  "mobile.privacy.intro": "Dizzy counts how the app is used, so the parts that trip people up can be found and fixed. Leaving it on helps us improve.",
   "mobile.privacy.never": "What never does",
   "mobile.privacy.never.body": "Your name, your account, your player profile, anything you type, and which event you were looking at. Turning this off stops it immediately.",
   "mobile.privacy.recorded": "What gets recorded",
