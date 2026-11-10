@@ -19,6 +19,7 @@
   "profile.deleteAccount.confirm.title": "Title of the delete-account confirmation.",
   "profile.deleteAccount.confirm.withPlayer": "Dialog body before an account is deleted; {name} is the player that survives it.",
   "profile.deleteAccount.confirm.withUnplayedPlayer": "Dialog body before an account is deleted, when its player has never played: the player is deleted with it. {name} is the player's name.",
+  "profile.deleteAccount.copyFirst": "In the Delete account section, under what deleting removes. The link jumps to the \"Your data\" download just above it on the same page.",
   "profile.deleteAccount.effect": "What deleting the account does.",
   "profile.deleteAccount.open": "Button that opens the delete-account confirmation.",
   "profile.deleteAccount.paidTime": "In the delete-account confirmation, for an account with Premium time left; {date} is when that time runs out. Deleting the account refunds the part of the time not yet used, to the bank card it was paid with, within 14 days.",

@@ -20,6 +20,7 @@
   "mobile.community.upcoming": "Upcoming",
   "mobile.community.upcomingEmpty": "Nothing on the calendar yet.",
   "mobile.community.wonBy": "won by {winner}",
+  "mobile.deleteAccount.copyFirst": "Want a copy first? Download it before you go.",
   "mobile.deleteAccount.deleting": "Deleting…",
   "mobile.deleteAccount.intro": "Deleting your account signs you out everywhere and removes your sign-in, sessions, notifications, API keys and settings. This can't be undone.",
   "mobile.deleteAccount.loadFailed": "Couldn't load your account: {error}",
