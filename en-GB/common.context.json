@@ -151,7 +151,7 @@
   "common.consent.prefs.necessaryLabel": "Screen-reader name of the always-on switch.",
   "common.consent.prefs.save": "Button saving the cookie choices.",
   "common.consent.prefs.title": "Title of the cookie preferences dialog.",
-  "common.consent.rejectAll": "Cookie banner button that refuses every optional cookie. Shown beside \"Accept all\" with the same prominence (the ICO expects an equally prominent reject option).",
+  "common.consent.rejectAll": "Cookie banner button that refuses every optional cookie. Shown beside \"Accept all\" with the same weight: refusing should be as easy as accepting.",
   "common.control.dangerZone": "Heading of the bordered section that holds a page's destructive actions (delete, reset).",
   "common.control.games": "Screen-reader name of the row of game tabs on a community or the home page.",
   "common.control.loading": "Screen-reader name of a spinning progress indicator.",
