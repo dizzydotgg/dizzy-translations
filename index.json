@@ -28903,6 +28903,12 @@
         "element": ""
       },
       {
+        "file": "apps/mobile/app/under-18.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/mobile/components/data-export-link.tsx",
         "grain": "str",
         "attr": "",

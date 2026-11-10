@@ -181,7 +181,7 @@
   "profile.under18.question": "The question itself, answered with Yes or No. Read by children as well as adults, so keep it as short and plain as the English.",
   "profile.under18.reason": "Under the question \"Are you under 18?\". Says in plain words why it is asked and who can see the answer. It is read by children, so keep the words simple.",
   "profile.under18.status.adult": "Shown after someone answers Yes but gives a birth month that makes them 18 already.",
-  "profile.under18.status.flagged": "Shown to a player who was marked as under 18 by someone else: an event host, or a site moderator. Their own answer does not remove that mark.",
+  "profile.under18.status.flagged": "Shown to a player who was marked as under 18 by someone else: an event host, or a site moderator. Their own answer does not remove that mark. The link opens the complaint form already set to \"I was wrongly treated as under 18 or under 13\".",
   "profile.under18.status.until": "What is saved about someone who said they are under 18. {month} is a month and a year already written in the reader's language, for example 'June 2030'.",
   "profile.under18.title": "The name of the question 'Are you under 18?' where it is asked in the site footer until it is answered.",
   "profile.under18.under13": "Shown under the birth month and year when they mean the person is under 13, before they save. Saving then closes the account. Read by a child: keep it short, plain and kind.",
