@@ -129,7 +129,7 @@
   "common.complaint.sent.bodyIntimate": "Shown once a complaint about an intimate image decision was sent, above its reference.",
   "common.complaint.sent.reference": "Accessible name of the box showing the complaint's reference, like C-7KQ2XM.",
   "common.complaint.sent.title": "Heading shown once a complaint or appeal was sent. It is the acknowledgement that Dizzy received it.",
-  "common.complaint.slurCheckNote": "Shown under the complaint kind when someone says the automatic slur check wrongly blocked their text. Ofcom's code (ICU D11.3) asks us to say what we may do and to point to their right to bring a claim; the link opens the Terms' Complaints section, which states that right. Keep \"going to court\" plain.",
+  "common.complaint.slurCheckNote": "Shown under the complaint kind when someone says the automatic slur check wrongly blocked their text. It says what we do if we agree, and where their rights are: the link opens the Terms' Complaints section. Keep \"going to court\" plain.",
   "common.complaint.submit": "Button sending the complaint form.",
   "common.complaint.submit.appeal": "Button sending the appeal form.",
   "common.complaint.title": "Heading of the public page where anyone, signed in or not, can complain about Dizzy or appeal a moderator's decision. Also the page title.",
