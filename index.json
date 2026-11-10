@@ -473,12 +473,6 @@
         "grain": "str",
         "attr": "",
         "element": ""
-      },
-      {
-        "file": "apps/web/components/cookie-consent.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
       }
     ]
   },
@@ -2863,6 +2857,17 @@
     ]
   },
   "common.consent.prefs.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/cookie-consent.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.consent.rejectAll": {
     "accessibleName": false,
     "sites": [
       {
