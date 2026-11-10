@@ -366,7 +366,6 @@
   "common.location.heading": "Where are you?",
   "common.location.hint": "Pick your town and the communities closest to you come first.",
   "common.location.noMatch": "No matching places.",
-  "common.location.promise": "Dizzy.gg will never share your personal information.",
   "common.location.saveFailed": "Couldn't save where you are.",
   "common.location.searchCity": "Search for a town or city…",
   "common.location.searchLabel": "Search for your town or city",

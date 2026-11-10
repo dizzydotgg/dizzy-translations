@@ -366,7 +366,6 @@
   "common.location.heading": "Wo bist du?",
   "common.location.hint": "Wähle deine Stadt, und die Communities in deiner Nähe kommen zuerst.",
   "common.location.noMatch": "Keine passenden Orte.",
-  "common.location.promise": "Dizzy.gg gibt deine persönlichen Daten niemals weiter.",
   "common.location.saveFailed": "Dein Standort konnte nicht gespeichert werden.",
   "common.location.searchCity": "Nach Stadt oder Ort suchen …",
   "common.location.searchLabel": "Nach deiner Stadt oder deinem Ort suchen",
