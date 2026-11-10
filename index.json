@@ -30460,7 +30460,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30482,7 +30482,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30504,7 +30504,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30526,7 +30526,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30548,7 +30548,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30570,7 +30570,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30592,7 +30592,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30697,7 +30697,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30719,7 +30719,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30741,7 +30741,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30763,7 +30763,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30785,7 +30785,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30807,7 +30807,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30829,7 +30829,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30851,7 +30851,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30873,7 +30873,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30895,7 +30895,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30917,7 +30917,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30978,7 +30978,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31000,7 +31000,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31022,7 +31022,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31044,7 +31044,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31066,7 +31066,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31088,7 +31088,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31110,7 +31110,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31132,7 +31132,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31154,7 +31154,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31176,7 +31176,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31187,7 +31187,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31198,7 +31198,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31209,7 +31209,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31220,7 +31220,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31242,7 +31242,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31264,7 +31264,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31286,7 +31286,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31308,7 +31308,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31319,7 +31319,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31330,7 +31330,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31341,7 +31341,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31352,7 +31352,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31363,7 +31363,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31374,7 +31374,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31391,7 +31391,7 @@
         "element": ""
       },
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31402,7 +31402,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31413,7 +31413,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31424,7 +31424,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31446,7 +31446,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31468,7 +31468,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31490,7 +31490,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31567,7 +31567,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -31694,7 +31694,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/lib/badge-display.ts",
+        "file": "packages/domain/src/badge-display.ts",
         "grain": "str",
         "attr": "",
         "element": ""
