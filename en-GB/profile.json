@@ -9,7 +9,7 @@
   "profile.claim.declined": "(request declined)",
   "profile.claim.merges": "Profiles you asked to merge into yours",
   "profile.claim.pending": "(request pending review)",
-  "profile.dataExport.body": "A copy of everything Dizzy holds about you, as one JSON file: your account, sessions, registrations, orders and notifications, and the results, ratings and badges of the player you claimed. Other players appear only as the public site shows them.",
+  "profile.dataExport.body": "A copy of everything Dizzy holds about you, as one JSON file: your account, sessions, registrations, orders and notifications; the results, ratings and badges of the player you claimed; and what others wrote on public pages that names that player. Other players appear only as the public site shows them.",
   "profile.dataExport.button": "Your data (JSON)",
   "profile.dataExport.failed": "Your data couldn't be prepared. Try again in a moment.",
   "profile.dataExport.pending": "Preparing your data…",

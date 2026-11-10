@@ -2612,6 +2612,17 @@
       }
     ]
   },
+  "common.complaint.slurCheckNote": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/complaint/complaint-form.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "common.complaint.submit": {
     "accessibleName": false,
     "sites": [
