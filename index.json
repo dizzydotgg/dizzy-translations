@@ -26613,6 +26613,17 @@
       }
     ]
   },
+  "mobile.deleteAccount.copyFirst": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/delete-account.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "mobile.deleteAccount.deleting": {
     "accessibleName": false,
     "sites": [
@@ -27003,7 +27014,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/app/(tabs)/index.tsx",
+        "file": "apps/mobile/components/data-export-link.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -27014,7 +27025,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/app/(tabs)/index.tsx",
+        "file": "apps/mobile/components/data-export-link.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -28886,13 +28897,13 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/mobile/app/(tabs)/index.tsx",
+        "file": "apps/mobile/app/events/[slug]/index.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
       },
       {
-        "file": "apps/mobile/app/events/[slug]/index.tsx",
+        "file": "apps/mobile/components/data-export-link.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -33346,6 +33357,17 @@
         "attr": "",
         "element": ""
       },
+      {
+        "file": "apps/web/app/[lang]/profile/delete-account-section.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "profile.deleteAccount.copyFirst": {
+    "accessibleName": false,
+    "sites": [
       {
         "file": "apps/web/app/[lang]/profile/delete-account-section.tsx",
         "grain": "str",

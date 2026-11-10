@@ -6,6 +6,7 @@
   "mobile.communities.home": "Flag beside the viewer's home community in the Communities tab list.",
   "mobile.community.boardTitle": "Section heading on a community's screen; {game} is the game the board ranks.",
   "mobile.community.wonBy": "Part of a finished event's line on a community's screen, after the date; {winner} is the winning player.",
+  "mobile.deleteAccount.copyFirst": "On the Delete account screen, just above the \"Download your data\" link, which opens the download in the phone's browser.",
   "mobile.event.entryFee": "On a bracket's line on the event screen, after its game and entrant count: what entering costs. {price} is a formatted amount. Lower case because it follows a middle dot.",
   "mobile.event.register": "The button on the event screen that opens the registration form.",
   "mobile.event.series.label": "Screen-reader label for the series name above an event's name in the app: the event is one edition of that series, and tapping opens the series page in the browser. {name} is the series name.",
