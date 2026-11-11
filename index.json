@@ -45342,7 +45342,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/replay/replay-theatre.tsx",
+        "file": "apps/web/components/replay/blaze-playback.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -45863,7 +45863,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/replay/replay-theatre.tsx",
+        "file": "apps/web/components/replay/blaze-playback.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -46168,7 +46168,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/replay/replay-theatre.tsx",
+        "file": "apps/web/components/replay/blaze-playback.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -46504,13 +46504,13 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/replay/melee-playback.tsx",
+        "file": "apps/web/components/replay/blaze-playback.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
       },
       {
-        "file": "apps/web/components/replay/replay-theatre.tsx",
+        "file": "apps/web/components/replay/melee-playback.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -46721,13 +46721,13 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/replay/melee-playback.tsx",
+        "file": "apps/web/components/replay/blaze-playback.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
       },
       {
-        "file": "apps/web/components/replay/replay-theatre.tsx",
+        "file": "apps/web/components/replay/melee-playback.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -46852,7 +46852,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/replay/replay-theatre.tsx",
+        "file": "apps/web/components/replay/blaze-playback.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
