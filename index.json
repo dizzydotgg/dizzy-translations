@@ -3765,12 +3765,6 @@
         "grain": "str",
         "attr": "",
         "element": ""
-      },
-      {
-        "file": "apps/web/app/[lang]/not-found.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
       }
     ]
   },
@@ -6087,6 +6081,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/navigation.tsx",
         "grain": "str",
         "attr": "",
@@ -6098,6 +6098,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/components/navigation.tsx",
         "grain": "str",
         "attr": "",
@@ -6108,6 +6114,12 @@
   "common.nav.section.upcoming": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/components/navigation.tsx",
         "grain": "str",
@@ -6201,7 +6213,117 @@
       }
     ]
   },
+  "common.notFound.dq": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.dqMeaning": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.kicker": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.missing": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.nextRound": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.thisMatch": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "common.notFound.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.versus": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.win": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.winMeaning": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/not-found.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.notFound.you": {
     "accessibleName": false,
     "sites": [
       {
@@ -7624,6 +7746,244 @@
     "sites": [
       {
         "file": "apps/web/components/rating-figure.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.falseStart": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.falseStartHint": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.framesShort": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.moveMeta": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.noTries": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.nothingFaster": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.now": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.react": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.reactUniversal": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.ready": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.readyHint": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.reset": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.result": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.resultHint": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.stats": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test-host.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.tooFast": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.tooFastUniversal": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.tooSlow": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "common.reactionTest.wait": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/components/reaction-test/reaction-test.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
