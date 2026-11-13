@@ -606,6 +606,7 @@
   "event.visibility.private.action": "Make private",
   "event.visibility.private.registered": "{n, plural, one {The one person registered can't open its page until you publish it again.} other {The {n} people registered can't open its page until you publish it again.}}",
   "event.visibility.private.title": "Make this event private?",
+  "event.visibility.private.unranks": "{n, plural, one {Its one finished tournament stops counting toward ratings. Publishing the event again won't change that back: you rank the tournament again yourself.} other {Its {n} finished tournaments stop counting toward ratings. Publishing the event again won't change that back: you rank each one again yourself.}}",
   "event.visibility.publish.action": "Publish event",
   "event.visibility.publish.noDrafts": "It goes live on the public site. There are no draft tournaments, so nothing else changes.",
   "event.visibility.publish.title": "Publish this event?",
