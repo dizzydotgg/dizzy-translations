@@ -3578,7 +3578,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/scope-door.tsx",
+        "file": "apps/web/components/scope-door-menu.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -3589,7 +3589,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/scope-door.tsx",
+        "file": "apps/web/components/scope-door-menu.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -3611,7 +3611,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/scope-door.tsx",
+        "file": "apps/web/components/scope-door-menu.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -3622,7 +3622,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/scope-door.tsx",
+        "file": "apps/web/components/scope-door-place.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -3633,7 +3633,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/scope-door.tsx",
+        "file": "apps/web/components/scope-door-menu.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -3678,7 +3678,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/scope-door.tsx",
+        "file": "apps/web/components/scope-door-menu.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -3695,7 +3695,7 @@
         "element": ""
       },
       {
-        "file": "apps/web/components/scope-door.tsx",
+        "file": "apps/web/components/scope-door-menu.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -8629,7 +8629,7 @@
     "accessibleName": false,
     "sites": [
       {
-        "file": "apps/web/components/site-search.tsx",
+        "file": "apps/web/components/site-search-shortcut.ts",
         "grain": "str",
         "attr": "",
         "element": ""
