@@ -25818,6 +25818,17 @@
       }
     ]
   },
+  "event.visibility.private.unranks": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/events/[slug]/event-visibility-control.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "event.visibility.publish.action": {
     "accessibleName": false,
     "sites": [
